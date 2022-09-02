@@ -19,7 +19,7 @@ export class AppComponent {
   }
 
   onMilesChange(value: string) {
-    this.height = parseFloat(value);
+    this.miles = parseFloat(value);
   }
 
   onHeightChange(value: string) {

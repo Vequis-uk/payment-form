@@ -92,13 +92,14 @@
     </div>
 
     <div class="col">
-      <label><b>Miles</b></label>
+      <label><b>Kilometers</b></label>
       <div>
-        {{ miles }}
+        {{ miles | convert }}
       </div>
     </div>
   </div>
   
+  <!-- This can be used to test things - it prints the value of a property -->
   {{ car | json }}
   
 </div>
